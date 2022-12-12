@@ -1,0 +1,109 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9;
+    color: #BE123C;
+    color: #1F2937;
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479;
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+*{
+    margin: auto;
+}
+
+header{
+    background-color: #f1f9f1 ;
+}
+
+
+
+.M4564123895-flex{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.container-main li{
+    background-color: #f1f9f1;
+    display: flex;
+    height: 40px;
+    margin-top: 8px;
+    width: 400px;
+    padding:20px;
+    justify-content: center;
+    font-size: 18px;
+    
+
+}
+
+
+
+
+
+input[type="text"]{
+    padding: 11px;
+    margin-top: 8%;
+    width: 65%;
+    background-color:#64748B ;
+    color:#020d1c;
+    
+}
+
+
+form input::placeholder{
+    color:#3A5479;
+}
+
+input[type="submit"]{
+    background-color: #4A56F9;
+    color: #f1f9f1;
+    padding: 11px;
+    width: 17%;
+   
+}
+
+
+
+
+
+h3.v{
+    color: #BE123C;
+    
+}
+
+h3.a{
+    color: blue;
+   
+}
+h3{
+    display: flex;
+    justify-content: right;
+    font-size: 40px;
+}
+
+footer{
+    display: flex;
+    margin-top: 10px;
+    width: 448px;
+    padding:20px 20px 20px  20px;
+    color: #64748B;
+}
